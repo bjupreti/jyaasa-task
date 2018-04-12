@@ -20,3 +20,5 @@ Download gulp, its plugins and other dependencies. The plugins that are used in 
 ```sh
 npm install
 ```
+#### Run the project in local server
+Now run the project into local server using `gulp watch`

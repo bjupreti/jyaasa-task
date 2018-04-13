@@ -4,41 +4,110 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <title>Admin Template</title>
+    <meta name="keywords" content="Bootstrap Admin Template">
+    <meta name="description" content="Admin Template">
+    <link rel="stylesheet" href="./temp/styles/styles.css">
   </head>
   <body>
-    <div class="container-fluid">
-    	<section class="left-pane">
-    		
-    	</section><!-- .left-pane section ends here -->
-    	<header>
-    		
-    	</header>
-    	<section class="sub-header"></section>
-    	<div class="page-content row">
-    		<div class="col-md-8">
-    			<section class="pie-lorem-ipsum">
+    <div class="container-fluid page-wrapper">
+      <div class="page-wrapper__overlay">
+          <aside class="left-pane">
+            <div class="left-pane__user_panel">
+              <div class="wrapper left-pane__user_content">
+                <img src="./assets/images/user-img.png" alt="Profile Picture">
+                <p class="left-pane__user_title">Mr. Jesse Pinkman</p>
+                <p class="left-pane__user_description">UX/UI Designer, Creative Director</p>
+              </div><!-- .wrapper ends here -->
+            </div><!-- .left-pane__user_panel ends here -->
+            <nav class="left-pane__menu">
+              <ul>
+                <li class="left-pane__menu_item">
+                  <a href="#" class="left-pane__menu_link left-pane--active"><img src="./assets/images/icons/home.png" alt="">Dashboard</a>
+                </li>
+                <li class="left-pane__menu_item">
+                  <a href="#" class="left-pane__menu_link "><img src="./assets/images/icons/progress.png" alt="">Progress</a>
+                </li>
+                <li class="left-pane__menu_item">
+                  <a href="#" class="left-pane__menu_link "><img src="./assets/images/icons/timeline.png" alt="">History Status</a>
+                </li>
+                <li class="left-pane__menu_item">
+                  <a href="#" class="left-pane__menu_link "><img src="./assets/images/icons/distribution.png" alt="">Distribution</a>
+                </li>
+                <li class="left-pane__menu_item">
+                  <a href="#" class="left-pane__menu_link "><img src="./assets/images/icons/lock.png" alt="">Security</a>
+                </li>
+                <li class="left-pane__menu_item">
+                  <a href="#" class="left-pane__menu_link "><img src="./assets/images/icons/setting.png" alt="">Setting</a>
+                </li>
+              </ul>
+            </nav><!-- .left-pane__navigation ends here -->
             
-          </section><!-- .pie-lorem-ipsum section ends here -->
-          <section class="timeline-fdolor-amet">
-            
-          </section><!-- .timeline-fdolor-amet section ends here -->
-          <section class="timeline-sdolor-amet">
-            
-          </section><!-- .timeline-sdolor-amet section ends here -->
-          <section class="pie-sit-lipsum">
-            
-          </section><!-- .pie-sit-lipsum section ends here -->
-    		</div><!-- .col-md-8 ends here -->
-    		<div class="col-md-4">
-    		  <section class="list-lorem-ipsum-dolor">
-                          
-          </section><!-- .list-lorem-ipsum-dolor section ends here -->
-    		</div><!-- .col-md-4 ends here -->
-    	</div><!-- .page-content, .row ends here -->
-    	<footer></footer>
-    </div><!-- .container-fluid ends here -->
+          </aside><!-- .left-pane aside ends here -->
+          <div class="right-pane">
+            <header class="site-header wrapper">
+              <h1 class="site-header__title">Lanavla</h1>
+              <div class="site-header__action_container">
+                <div class="site-header__action_box">
+                  <img src="./assets/images/icons/alert.png" alt="Alert Icon" class="site-header__action_icon">
+                  <span class="site-header__action_description">Alerts</span>
+                </div><!-- .site-header__action_box ends here -->
+                <div class="site-header__action_box">
+                  <img src="./assets/images/icons/logout.png" alt="Logout Icon" class="site-header__action_icon">
+                  <span class="site-header__action_description">Logout</span>
+                </div><!-- .site-header__action_box ends here -->
+              </div><!-- .site-header__action -->
+              <div class="clearfix"></div>
+            </header>
+            <section class="site-subheader">
+              <div class="wrapper">
+                <h2 class="site-subheader__title">Dashboard</h2>
+                <p class="site-subheader__description">Data from 26/11/13 to 12/12/2014</p>
+                <div class="clearfix"></div>
+              </div>
+            </section>
+            <div class="page-content row wrapper--large">
+              <div class="col-md-8 row">
+                <section class="box col-md-5" style="background: red;">
+                  <h2 class="box__title wrapper">Lorem Ipsum</h2>
+                  <div class="box__content pie">
+                    
+                  </div><!-- .box__content, .pie ends here -->
+                </section><!-- .box section ends here -->
+                <section class="box col-md-7" style="background: yellow;">
+                  <h2 class="box__title wrapper">Dolor Amet</h2>
+                  <div class="box__content timeline">
+                    
+                  </div><!-- .box__content, .timeline ends here -->
+                </section><!-- .box section ends here -->
+                <section class="box col-md-7" style="background: lavender;">
+                  <h2 class="box__title wrapper">Dolor Amet</h2>
+                  <div class="box__content timeline">
+                    
+                  </div><!-- .box__content, .timeline ends here -->
+                </section><!-- .box section ends here -->
+                <section class="box col-md-5" style="background: red;">
+                  <h2 class="box__title wrapper">Sit Lipsum</h2>
+                  <div class="box__content pie">
+                    
+                  </div><!-- .box__content, .pie ends here -->
+                </section><!-- .box section ends here -->
+              </div><!-- .col-md-8 ends here -->
+              <div class="col-md-4">
+                <section class="box" style="background: red;">
+                  <h2 class="box__title wrapper">Lorem Ipsum Dolor</h2>
+                  <div class="box__content list">
+                    
+                  </div><!-- .box__content, .list ends here -->
+                </section><!-- .box section ends here -->
+              </div><!-- .col-md-4 ends here -->
+            </div><!-- .page-content, .row ends here -->
+            <!-- <footer>
+              <p>All Rights Reserved to <span>Lonavla</span></p>
+            </footer> -->
+          </div><!-- .right-pane ends here -->
+      </div><!-- .page-wrapper__overlay ends here -->
+    </div><!-- .container-fluid, page-wrapper ends here -->
 
   </body>
 </html>

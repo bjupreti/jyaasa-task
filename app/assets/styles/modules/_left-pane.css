@@ -1,0 +1,51 @@
+.left-pane {
+	height: calc(100vh);
+	position: fixed;
+	width: 267px;
+	float: left;
+	background: black;
+
+	&__user_content {
+		text-align: center;
+		background: rgba($white, .6);
+	}
+
+	&__user_title {
+		margin: 0;
+		font-size: 0.875rem;
+
+	}
+
+	&__user_description {
+		margin: 0;
+		font-size: 0.75rem;
+	}
+
+	&__menu_item {
+		margin-top: 1px;
+
+		&:hover img{
+			/*Animation of the button*/
+		}
+
+		img {
+			padding: 1.06rem 1.68rem 1.06rem 1.25rem;
+		}
+	}
+	&__menu_link {
+		color: white;
+		display: block;
+		background: rgba(107, 67, 72, .1);
+		transition: background-color .5s linear;
+		/*Hex value: #6b4348*/
+		&:hover {
+			color: white;
+			background: red;
+		}
+	}
+
+	&--active {
+		background: rgba(14, 3, 5, .1);
+		/*Hex value: #0e0305*/
+	}
+}

@@ -1,0 +1,11 @@
+.box {
+	background-clip: padding-box !important;
+	border: .625rem solid transparent;
+
+	&__title {
+		font-size: 0.875rem;
+		font-weight: bold;
+		border: 1px solid rgba($white, 0.3);
+		margin: 0;
+	}
+}

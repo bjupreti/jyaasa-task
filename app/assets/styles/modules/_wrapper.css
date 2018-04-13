@@ -1,0 +1,8 @@
+.wrapper {
+	padding: 0.875rem 0.75rem;
+
+	&--large {
+		padding: 1.31rem 1.31rem .625rem 1.31rem;
+	}
+
+}

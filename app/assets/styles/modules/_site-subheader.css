@@ -1,0 +1,21 @@
+.site-subheader {
+	background: rgba($white, 0.04);
+	position: relative;
+
+	&__title {
+		float: left;
+		font-size: 1.5rem;
+		margin: 0;
+		padding: 0.4rem 0;
+	}
+
+	&__description {
+		/*float: right;*/
+		font-size: 0.75rem;
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		right: 0.75rem;
+
+	}
+}

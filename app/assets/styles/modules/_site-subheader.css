@@ -16,6 +16,6 @@
 		top: 50%;
 		transform: translateY(-50%);
 		right: 0.75rem;
-
+		color: rgba($white, 0.5);
 	}
 }

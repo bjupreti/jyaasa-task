@@ -5,4 +5,8 @@
 		padding: 1.31rem 1.31rem .625rem 1.31rem;
 	}
 
+	&--list {
+		padding: 0 0.625rem;
+	}
+
 }

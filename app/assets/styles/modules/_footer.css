@@ -1,0 +1,15 @@
+.footer {
+	background: rgba($white, 0.1);
+	
+	&__text {
+		margin: 0;
+		text-align: center;
+		font-size: 0.625rem;
+		padding: 0.3rem;
+
+		span {
+			/*font-family: "Amazone BT Regular";
+			font-size: 0.75rem;*/
+		}
+	}
+}

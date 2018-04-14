@@ -10,4 +10,7 @@
 @import "modules/_site-header";
 @import "modules/_site-subheader";
 @import "modules/_box.css";
+@import "modules/_pie.css";
+@import "modules/_list.css";
+@import "modules/_footer.css";
 /*@import "modules/_btn";*/

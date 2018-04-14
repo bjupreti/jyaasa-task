@@ -3,11 +3,10 @@
 	position: fixed;
 	width: 267px;
 	float: left;
-	background: black;
 
 	&__user_content {
 		text-align: center;
-		background: rgba($white, .6);
+		background: rgba($white, .06);
 	}
 
 	&__user_title {

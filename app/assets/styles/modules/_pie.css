@@ -1,0 +1,64 @@
+.pie {
+	text-align: center;
+	
+	&--orange {
+		border: 5px solid rgba($siteOrange, 0.5);
+
+		/*&::after {
+			border-top: 5px solid $siteOrange;
+			border-bottom: 5px solid $siteOrange;
+			border-left: 5px solid $siteOrange;
+		}
+		*/
+	}
+	&--green {
+		border: 5px solid rgba($siteGreen, 0.5);
+
+		/*&::after {
+			border-bottom: 5px solid $siteGreen;
+			border-left: 5px solid $siteGreen;
+		}*/
+	}
+	&__fig {
+		height: 8rem;
+		width: 8rem;
+		line-height: 8rem;
+		margin: 0.875rem auto;
+		font-size: 1.7rem;
+		border-radius: 100%;
+		position: relative;
+		/* This is another layer of border being applied above the pie.*/
+		/*&::after {
+			position: absolute;
+			box-sizing: padding-box;
+			top: -5px;
+			left: -5px;
+			height: calc(100% + 10px);
+			content: '';
+			width: calc(100% + 10px);
+			border-radius: 100%;
+			animation: 1s spin linear;
+			transition: all 0.3s ease-in; 
+		}*/
+	}
+
+	&__title {
+		font-size: 0.875rem;
+		margin-bottom: 0.625rem;
+	}
+
+	&__description {
+		font-size: 0.7rem;
+		width: 12.25rem;
+		margin: 0 auto 0.625rem;
+		opacity: 0.5;
+	}
+}
+@keyframes spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(240deg);
+	}
+}

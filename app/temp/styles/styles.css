@@ -7435,6 +7435,9 @@ a:hover {
 .wrapper--large {
 		padding: 1.31rem 1.31rem .625rem 1.31rem;
 	}
+.wrapper--list {
+		padding: 0 0.625rem;
+	}
 .page-wrapper {
 	min-height: 100%;
 	width: 100%;
@@ -7450,11 +7453,10 @@ a:hover {
 	position: fixed;
 	width: 267px;
 	float: left;
-	background: black;
 }
 .left-pane__user_content {
 		text-align: center;
-		background: rgba(255,255,255, .6);
+		background: rgba(255,255,255, .06);
 	}
 .left-pane__user_title {
 		margin: 0;
@@ -7539,16 +7541,125 @@ a:hover {
 		-webkit-transform: translateY(-50%);
 		        transform: translateY(-50%);
 		right: 0.75rem;
-
+		color: rgba(255,255,255, 0.5);
 	}
 .box {
 	background-clip: padding-box !important;
+	background: rgba(255,255,255, 0.06);
 	border: .625rem solid transparent;
+	border-radius: 15px;
 }
 .box__title {
 		font-size: 0.875rem;
 		font-weight: bold;
-		border: 1px solid rgba(255,255,255, 0.3);
+		border-bottom: 1px solid rgba(255,255,255, 0.3);
 		margin: 0;
 	}
+.pie {
+	text-align: center;
+}
+.pie--orange {
+		border: 5px solid rgba(238,178,18, 0.5);
+
+		/*&::after {
+			border-top: 5px solid $siteOrange;
+			border-bottom: 5px solid $siteOrange;
+			border-left: 5px solid $siteOrange;
+		}
+		*/
+	}
+.pie--green {
+		border: 5px solid rgba(18,238,142, 0.5);
+
+		/*&::after {
+			border-bottom: 5px solid $siteGreen;
+			border-left: 5px solid $siteGreen;
+		}*/
+	}
+.pie__fig {
+		height: 8rem;
+		width: 8rem;
+		line-height: 8rem;
+		margin: 0.875rem auto;
+		font-size: 1.7rem;
+		border-radius: 100%;
+		position: relative;
+		/* This is another layer of border being applied above the pie.*/
+		/*&::after {
+			position: absolute;
+			box-sizing: padding-box;
+			top: -5px;
+			left: -5px;
+			height: calc(100% + 10px);
+			content: '';
+			width: calc(100% + 10px);
+			border-radius: 100%;
+			animation: 1s spin linear;
+			transition: all 0.3s ease-in; 
+		}*/
+	}
+.pie__title {
+		font-size: 0.875rem;
+		margin-bottom: 0.625rem;
+	}
+.pie__description {
+		font-size: 0.7rem;
+		width: 12.25rem;
+		margin: 0 auto 0.625rem;
+		opacity: 0.5;
+	}
+@-webkit-keyframes spin {
+	from {
+		-webkit-transform: rotate(0deg);
+		        transform: rotate(0deg);
+	}
+	to {
+		-webkit-transform: rotate(240deg);
+		        transform: rotate(240deg);
+	}
+}
+@keyframes spin {
+	from {
+		-webkit-transform: rotate(0deg);
+		        transform: rotate(0deg);
+	}
+	to {
+		-webkit-transform: rotate(240deg);
+		        transform: rotate(240deg);
+	}
+}
+.list__content {
+		border-bottom: 1px solid rgba(255,255,255, 0.1);
+	}
+.list__content:last-child {
+			margin-bottom: 3.1875rem;
+		}
+.list__img {
+		margin: 1rem 1.125rem 1rem 0.375rem;
+		float: left;
+	}
+.list__username {
+		padding: 1.15rem 0 0rem 0;
+		margin: 0;
+		font-size: 0.875rem;
+		font-weight: 700;
+	}
+.list__user_description {
+		font-size: 0.75rem;
+		margin: 0;
+		color: rgba(255,255,255, 0.5);
+	}
+.footer {
+	background: rgba(255,255,255, 0.1);
+}
+.footer__text {
+		margin: 0;
+		text-align: center;
+		font-size: 0.625rem;
+		padding: 0.3rem;
+	}
+.footer__text span {
+			/*font-family: "Amazone BT Regular";
+			font-size: 0.75rem;*/
+		}
 /*@import "modules/_btn";*/
